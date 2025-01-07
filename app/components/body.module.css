@@ -1,0 +1,136 @@
+.foodGridContainer {
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .foodGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust based on layout */
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .foodCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .foodCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .foodImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .foodName {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .recipeDetails {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .recipeDetails {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .recipeContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .imageContainer {
+    flex: 1; /* Takes up 1 part of the space */
+    max-width: 400px;
+  }
+  
+  .recipeImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detailsContainer {
+    flex: 2; /* Takes up 2 parts of the space */
+  }
+  
+  .recipeTitle {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .ingredientsList,
+  .instructionsList {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .ingredientsList li,
+  .instructionsList li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    
+  }
+  
+  .backButton {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4a34038e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .backButton:hover {
+    background-color: #b37100;
+  }
+  
+  .paginationArrows {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .arrowButton {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    background-color: #e29506;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .arrowButton:disabled {
+    cursor: not-allowed;
+    color: #ffffff;
+  }
+  
+  .arrowButton:hover:not(:disabled) {
+    transform: scale(1.1);
+    background-color: #e0e0e0;
+  }

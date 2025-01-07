@@ -1,0 +1,105 @@
+.footer {
+    background-color: #f8b400;
+    color: white;
+    padding: 40px 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logoSection {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .logoSection h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .logoSection p {
+    font-size: 1rem;
+    line-height: 1.5;
+    opacity: 0.9;
+  }
+  
+  .linksSection {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .linksSection h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .linksSection ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .linksSection li {
+    margin-bottom: 10px;
+  }
+  
+  .linksSection a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .linksSection a:hover {
+    color: #ffe0cc;
+  }
+  
+  .socialSection {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .socialSection h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .socialIcons a {
+    font-size: 1.5rem;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f8b400;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .socialIcons a:hover {
+    background-color: #ffe0cc;
+    color: #ff6f3c;
+    transform: scale(1.1);
+  }
+  
+  .footerBottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
